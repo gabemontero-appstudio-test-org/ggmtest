@@ -59,7 +59,7 @@ def disableInput():
 st.title("💬 Chatbot")  
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", 
-                                     "content": "How can I help you?"}]
+                                     "content": "Como te ayudo?"}]
 if "input_disabled" not in st.session_state:
     enableInput()
 
